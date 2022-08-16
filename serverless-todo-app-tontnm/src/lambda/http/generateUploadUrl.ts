@@ -5,7 +5,7 @@ import * as uuid from 'uuid'
 import * as middy from 'middy'
 import { cors, httpErrorHandler } from 'middy/middlewares'
 
-import { generateUploadUrl, updateAttachmentUrl } from '../../helpers/todos'
+import { generateUploadUrl, updateAttachmentUrl } from '../../businessLogic/todos'
 import { getUserId } from '../utils'
 import { createLogger } from '../../utils/logger'
 
